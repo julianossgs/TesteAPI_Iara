@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Juliano\\Desktop\\Teste IARA\\TesteAPI_IARA\\TesteAPI_Iara\\TesteAPI_Iara\\TesteAPI_Iara.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Juliano\\Desktop\\Teste IARA\\TesteAPI_IARA\\TesteAPI_Iara\\TesteAPI_Iara\\TesteAPI_Iara.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Juliano\\Desktop\\Teste IARA\\TesteAPI_IARA\\TesteAPI_Iara\\TesteAPI_Iara\\TesteAPI_Iara.csproj",
+        "projectName": "TesteAPI_Iara",
+        "projectPath": "C:\\Users\\Juliano\\Desktop\\Teste IARA\\TesteAPI_IARA\\TesteAPI_Iara\\TesteAPI_Iara\\TesteAPI_Iara.csproj",
+        "packagesPath": "C:\\Users\\Juliano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Juliano\\Desktop\\Teste IARA\\TesteAPI_IARA\\TesteAPI_Iara\\TesteAPI_Iara\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Juliano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TesteAPI_Iara.props" />
+</Project>
