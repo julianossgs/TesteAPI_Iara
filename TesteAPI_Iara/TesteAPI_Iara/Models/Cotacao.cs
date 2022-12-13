@@ -14,5 +14,6 @@
         public string? Bairro { get; set; }
         public char Uf { get; set; }
         public string? Observacao { get; set; }
+
     }
 }
