@@ -1,7 +1,15 @@
-﻿namespace TesteAPI_Iara.Models
+﻿using System.Collections.ObjectModel;
+
+namespace TesteAPI_Iara.Models
 {
     public class Cotacao
     {
+        //Construtor
+        public Cotacao()
+        {
+            CotacaoItens = new Collection<CotacaoItem>();
+        }
+
         public int CotacaoId { get; set; }
         public string? CnpjComprador { get; set; }
         public string? CnpjFornecedor { get; set; }
@@ -14,6 +22,8 @@
         public string? Bairro { get; set; }
         public char Uf { get; set; }
         public string? Observacao { get; set; }
+
+        public ICollection<CotacaoItem>? CotacaoItens { get; set; }
 
     }
 }

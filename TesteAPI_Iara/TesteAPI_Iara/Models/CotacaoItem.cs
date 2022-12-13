@@ -9,5 +9,7 @@
         public float Quantidade { get; set; }
         public string? Marca { get; set; }
         public string? Unidade { get; set; }
+        public int CotacaoId { get; set; }
+        public Cotacao? Cotacao { get; set; }
     }
 }
