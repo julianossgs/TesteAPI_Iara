@@ -1,5 +1,4 @@
-﻿using Castle.Components.DictionaryAdapter;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using KeyAttribute = System.ComponentModel.DataAnnotations.KeyAttribute;
 
